@@ -1,0 +1,48 @@
+html{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(Images/menu-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+/*.row{background-color: yellow;}
+.list-wrap{background-color: green;}*/
+.heading-menu{ 
+    font-size: 220%;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+.list-container{margin: 0 auto}
+.menu-name{ 
+    width: 100%; 
+    text-align: center;
+    color: #78c8cf;
+}
+.list-wrap{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.list-1, .price-wrap > ul{ list-style: none; }
+.list-1 > li,.price-wrap > ul > li{
+    text-align: justify;
+    text-transform: capitalize;
+    color: #f2b830;
+}
+@media only screen and (max-width: 1024px){
+    .list-1 li, .price-wrap li{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .menu-nav{margin-top: -3%;}
+    .heading-menu{margin-top: 15%; margin-bottom: 15%;}
+}
+@media only screen and (max-width: 480px){
+    .menu-nav{margin-top: -5%;}
+    .heading-menu{margin-top: 15%; margin-bottom: 15%;}
+}
+@media only screen and (max-width: 325px){
+    .menu-nav{ margin-top: -6%;}
+}

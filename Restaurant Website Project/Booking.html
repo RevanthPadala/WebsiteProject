@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS files-->
+        <link rel="stylesheet" type="text/css" href="Venders/CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="Venders/CSS/grid.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/Quaires.css">
+        
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+        <!-- This bottom link is to fontawesome latest version 6 relesed in the year 2021-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+        <title>Booking</title>
+        <link rel="icon" type="image/png" href="Resources/img/Titlebar-logo.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <div class="logo-name">the india</div>
+                    <img src="Resources/img/Logo.png" alt="Logo" class="logo">
+                    <input class="menu-btn" type="checkbox" id="check">
+                    <label class="check-btn" for="check">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul class="main-nav">
+                        <li><a href="index.html"><b>Home</b></a></li>
+                        <li><a href="gallery.html"><b>Gallery</b></a></li>
+                        <li><a href="#our-cities"><b>Our cities</b></a></li>
+                        <li><a href="#contact-us"><b>Contact</b></a></li>
+                        <li><a href="menu.html"><b>menu</b></a></li>    
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>fresh and delicious</h1>
+                <h4>traditional indian food to delight the whole family</h4>
+                <a class="btn btn-full" href="#booking-form"><b>Book Table</b></a>
+                
+            </div>
+            <div class="arrow-wrap Booking-arrow">
+                <a href="#booking-form">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </header>
+        <section id="booking-form">
+            <div class="row">
+                <div class="col span-1-of-2 image">
+                    <div class="img-wrap">
+                        <div class="booking-img">
+                            <img src="Resources/img/BookingForm-img.jpg" alt="table">
+                            <div class="decoration"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-2">
+                    <div>
+                        <h2 class="booking-heading">Book a Tabel</h2>
+                    </div>
+                    <form class="table">
+                        <input type="text" placeholder="Name" id="name">
+                        <input type="email" placeholder="Gmail" id="email">
+                        <input type="number" placeholder="Phone Number" id="phoneNumber">
+                        <select id="persons">
+                            <option value="NO.OF Persons" selected>NO.OF Persons</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4 and More</option>
+                        </select>
+                        <input type="date" id="date">
+                        <input type="time" id="time">
+                    </form>
+                    <div class="book-button">
+                        <a href="#">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="last-section">
+            <div class="row footer">
+                <div class="right-div">
+                    <ul>
+                        <li>
+                           <a href="#" class="icon-1">
+                               <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-2">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-3">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-4">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="copy-right">
+                    Created by RevanthPadala
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

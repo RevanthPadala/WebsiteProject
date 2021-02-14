@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1300px){
+  .decoration{
+    right: 55%;
+  }
+  .img-wrap{text-align: center;}
+
+}
+
+/* big tablet to 1200px (width smaller that the 1140px) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row { padding: 0 2%; width: 100%; }
+  .small-icon{
+    width: 17px;
+    margin-right: 5px;
+    font-size: 90%;
+  }
+  .decoration{
+    right: 55%;
+  }
+  .img-wrap{text-align: center;}
+}
+
+/* small tablet to big tablet from 767 to 1024px */
+@media all and (max-width: 1025px) {
+  body { font-size: 18px; }
+  section { padding: 60px 0; }
+  .row{ width: 100%; }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .step-box { margin-top: 10px; }
+  .step-box:last-child{ margin-top: 10px; }
+  .works-step:last-of-type { margin-bottom: 60px; }
+
+  .app-screen { width: 50%; }
+    
+  .icon-small{ 
+    width: 17px;
+    margin-right: 5px;
+  }
+  .small-icon{
+    width: 17px;
+    margin-right: 5px;
+    font-size: 90%;
+  }
+  .city-feature { font-size: 90%; }
+    
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+    
+  .plan-price { font-size: 250%; }
+  .contact-form { width: 80%; }
+}
+
+/* samll phones to small tablets from 481 to 767px */
+@media only screen and (max-width: 768px) {
+  body { font-size: 16px; }
+  section{ padding: 20px 0; }
+
+  /*Header section */
+
+  .row, .hero-text-box{ padding: 0 4%; }
+  .hero-text-box h1{ font-size: 230%;}
+  h2{ font-size: 130%;}
+  h4{
+    font-size: 100%;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+  .check-btn{
+    margin-top: 10px;
+  }
+
+  /*section-1*/
+
+  .long-copy{width: 100%; margin-left: 0%;}
+  .icon-big{ font-size: 30px; }
+
+  /* How it works section */
+
+  .app-screen{ width: 40%; }
+  .steps-box:first-child{ text-align: center;}
+  .works-step > div {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 120%;
+  }
+  .works-step{ margin-bottom: 30px; }
+  .works-step:last-of-type{ margin-bottom: 30px; }
+
+  /* grid of images section */
+  .meal-photo img:hover{
+    opacity: 1;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+  }
+  /* city section */
+  .col{ margin-top: 10px;}
+  .box > .img-div { text-align: center; }
+  .contant{
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* subscription section */
+  .plan-box{width: 65%;}
+  .plan-box-div{ text-align: center;}
+  .plan-box > div > ul {text-align: left;}
+  /* to set side by side content to bottom */
+  .col{
+    width: 100%;
+    margin: -4% 0 8% 0;/* signup section */
+  }
+  /* footer section */
+  
+}
+
+/* small phones from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+  section{ padding: 25px 0; }
+  .contact-form{ width: 100%; }
+  /* nav bar */
+  .nav-active{
+    font-size: 70%;
+  }
+  /* Headings */
+  .hero-text-box h1{ font-size: 170%; word-spacing: 0;}
+  h2{font-size: 100%;}
+  h4{ font-size: 70%;}
+
+  .arrow-wrap{left: 45%;}
+  /* footer */
+  .right-div{display: none;}
+
+  /*-------------------------------------*/
+  /* For Booking html file */
+  /*------------------------------------*/
+  #booking-form .row .image{
+    margin-left: 5%;
+  }
+  .booking-heading{font-size: 130%;}
+  .decoration{ display: none; }
+  .table{
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: -10% auto 0 auto;
+  }
+  .book-button{ width: 80%; margin: 0 auto}
+
+}
+@media only screen and (max-width: 380px) {
+  /* nav bar */
+  .nav-active{
+    font-size: 45%;
+  }
+  /* Heading */
+  .hero-text-box h1{ font-size: 120%;}
+  h4{ font-size: 60%; word-spacing: auto;}
+  /* city section */
+  .contant{
+    font-size: 100%;
+    width: 80%;
+  }
+  /*Scbscription section */
+  .plan-box .plan-price-per-meal{
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width: 330px){
+  /* Heading */
+  .hero-text-box h1{ font-size: 110%; }
+  h4{ font-size: 50%; }
+
+  .hero-text-box .btn{
+    font-size: 90%;
+  }
+
+  .contant{
+    font-size: 70%;
+  }
+  /* Subscribtion section */
+  .plan-box .plan-price-per-meal, .plan-box ul{
+    font-size: 70%;
+  }
+}
+/* Media quearis for Responsive mobiles */
+@media (max-width: 360px){
+  .contant{
+    padding: 0;
+    width: 80%;
+  }
+}
+
