@@ -1,6 +1,8 @@
 html{
     background-color: white;
 }
+#gallery-nav li a.active{ color: #f2b830;}
+#gallery-nav li a {color: black;}
 
 .heading-gallery{ 
     font-size: 220%;
